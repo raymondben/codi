@@ -13,6 +13,10 @@ sao=dlmread('example_data/sao.csv'); % pulse oximetry, sampled at 1 Hz
 [codi_score,codi_check]=codi(rtimes,sao);
 #+end_src
 
-* References
+** References
 
 Raymond B, Cayton RM, Chappell MJ (2003) Combined index of heart rate variability and oximetry in screening for the sleep apnoea/hypopnoea syndrome. /Journal of Sleep Research/ *12*:53–61. [[http://dx.doi.org/10.1046/j.1365-2869.2003.00330.x][doi:10.1046/j.1365-2869.2003.00330.x]]
+
+*** Abstract
+
+Many sleep centres employ a preliminary screening test in order to reduce the number of polysomnographies required in the routine diagnosis of the sleep apnoea/hypopnoea syndrome (SAHS). We investigated the combination of heart rate and oximetry information as a means of performing this test. A retrospective study of 100 patients with suspected SAHS was made. All patients had in-hospital polysomnography on one night. We estimated the number of respiratory event-related arousals by counting the number of autonomic arousals (assessed on the basis of changes in the heart interbeat interval) that were coincident with a rise in oximetry. The hourly index of such events was denoted the ‘cardiac-oximetry disturbance index’ (CODI). The median apnoea/hypopnoea index (AHI) was 16.5 (range 1.0–93.6) h−1. The CODI correlated significantly with the AHI (Spearman correlation coefficient rs = 0.88, P < 0.01), and the area (± standard error) under the receiver operating characteristic (ROC) was 0.94 ± 0.05. Oximetry alone (based on 4% dips) was a less effective screening test (rs = 0.80, P < 0.01; area under ROC 0.83 ± 0.06). Using 2% dips in oximetry offered comparable performance with the CODI (rs = 0.91, P < 0.01; area under ROC 0.93 ± 0.04). The CODI was better correlated with the electroencephalograph arousal index (rs = 0.84, P < 0.01) than was oximetry (2% dips, rs = 0.57, P < 0.01). The CODI algorithm also offers an informal measure of self-validation: a large discrepancy between the number of autonomic arousals and the number of rises in oximetry indicates the presence of autonomic arousals without changes in oximetry (or vice versa). This self-validation mechanism identified several patients in this study, and may be useful in identifying sleep disruption due to chronic pain or other causes.
