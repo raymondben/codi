@@ -1,0 +1,5 @@
+* codi
+
+Cardiac-oximetry disturbance index
+
+Raymond B, Cayton RM, Chappell MJ (2003) Combined index of heart rate variability and oximetry in screening for the sleep apnoea/hypopnoea syndrome. /Journal of Sleep Research/ *12*:53–61. [[http://dx.doi.org/10.1046/j.1365-2869.2003.00330.x][doi:10.1046/j.1365-2869.2003.00330.x]]
