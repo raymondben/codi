@@ -4,13 +4,12 @@ Cardiac-oximetry disturbance index
 
 A Matlab implementation of the cardiac-oximetry disturbance index (CODI; Raymond et al. 2003) for the detection of obstructive sleep apnoea.
 
-** Example
+** Example usage
 
 #+begin_src
-rtimes=dlmread('example_data/rtimes.csv'); % R-wave times, in seconds
-sao=dlmread('example_data/sao.csv'); % pulse oximetry, sampled at 1 Hz
-
-[codi_score,codi_check]=codi(rtimes,sao);
+rtimes=dlmread('example_data/1/rtimes.csv'); % R-wave times, in seconds
+sao=dlmread('example_data/1/sao.csv'); % pulse oximetry, sampled at 1 Hz
+[codi_score,codi_check]=codi(rtimes,sao,1);
 #+end_src
 
 ** References
